@@ -18,7 +18,7 @@ CMD ["node","server.js"]
 
 Commandes :
 
-docker build -t optapp:baseline .
+''' docker build -t optapp:baseline .
 docker run -d -p 3000:3000 --name opt-baseline optapp:baseline
 docker images optapp
 
